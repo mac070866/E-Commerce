@@ -7,3 +7,13 @@
     font-family: 'Roberto', sans-serif;
     font-weight: 400;
     }
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+}
