@@ -32,11 +32,13 @@ nav {
 
 ul {
     display: flex;
-
-    li {
-        list-style-type: none;
-    }
 }
+ 
+li {
+    list-style: none;
+}
+
+
 .nav__link {
     margin-left: 16px;
     text-decoration: none;
@@ -55,8 +57,10 @@ ul {
 }
 
 .nav__link--primary {
-    border: 2px solid;
+    border: 2px solid #7342d6;
+    padding: 8px 16px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .nav__link--primary:hover {
@@ -78,7 +82,7 @@ header {
     justify-content: space-around;
 }
 
-.header__desription {
+.header__description {
     display: flex;
     flex-direction: column;
     align-items: center;
