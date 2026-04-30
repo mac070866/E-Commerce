@@ -69,7 +69,6 @@ li {
     text-decoration: none;
 }
 
-
 .nav__link--primary:hover {
     text-decoration: none;
 }
@@ -151,3 +150,15 @@ HIGHLIGHTS
 
 */
 
+.highlight__wrapper {
+    display: flex;
+}
+
+.hightlight {
+    padding: 0 24px;
+    width: calc(100% / 3);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
