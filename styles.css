@@ -154,6 +154,21 @@ HIGHLIGHTS
 
 */
 
+#highlights:before {
+    content:"testwefguwegfiu"
+    /* background: url(assets/wave.svg);
+    content:"";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    transform: translateY(-100%);
+    width: 101vw;
+    height: 12vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:1; */
+}
+
 .highlight__wrapper {
     display: flex;
 }
