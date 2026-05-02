@@ -291,7 +291,8 @@ FEATURES
 }
 
 .book__ratings {
-    margin-bottom: 
+    margin-bottom: 8px;
+    color: #fabf2a;
 }
 
 .book__ratings {
