@@ -160,6 +160,11 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
+.no-cursor {
+cursor: not-allowed;
+}
+
 /*
 
 HIGHLIGHTS
@@ -324,5 +329,33 @@ Explore
 
 #explore {
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+/* 
+
+footer 
+
+*/
+
+footer {
+    background-color: #242424;
+
+.footer__logo--imag {
+    width: 160px;
+    filter: grayscale(1) invett(1);
+}
+
+.footer__link,
+.footer__copyright {
+    color:#fff;
+}
+
+.footer__list (
+    margin-bottom; 24px;
+    
+)
+
+.footer__link {
+    
 }
 
