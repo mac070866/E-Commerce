@@ -155,6 +155,11 @@ p {
     max-width: 1200px;
     margin: 0 auto;
 }
+.row__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*
 
 HIGHLIGHTS
@@ -259,7 +264,7 @@ FEATURES
 
 .books {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .book {
@@ -309,4 +314,14 @@ FEATURES
     text-decoration: line-through;
     padding-right: 6px;
     color: #bfbfbf;
+}
+
+/* 
+
+Explore 
+
+*/
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
 }
